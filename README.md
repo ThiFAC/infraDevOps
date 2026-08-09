@@ -1,4 +1,5 @@
 # React + Vite
+Projeto desenvolvido pela equipe Aluizio e Thiago.
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
