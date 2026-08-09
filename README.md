@@ -1,4 +1,4 @@
-# InfraDevOps — Verificador de Força de Senha
+# InfraDevOps — Verificador de Força de Senha Projeto desenvolvido por Henrique e Thiago.
 
 ## Descrição do Projeto
 
