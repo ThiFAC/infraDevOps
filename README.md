@@ -1,19 +1,50 @@
-# React + Vite
-Projeto desenvolvido pela equipe Aluizio e Thiago.
+# InfraDevOps — Verificador de Força de Senha Projeto desenvolvido por Henrique e Thiago.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Descrição do Projeto
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como atividade prática da disciplina de DevOps e
+Integração Contínua do Centro Universitário Internacional Uninter. A proposta
+simula a atuação de uma equipe de consultoria contratada pela empresa fictícia
+CodeFactory Solutions, com o objetivo de demonstrar, na prática, a adoção da
+Cultura DevOps em um fluxo de desenvolvimento de software.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivo
 
-## React Compiler
+Aplicar conceitos de versionamento com Git/GitHub, containerização com Docker
+e Integração Contínua sobre um projeto real: um script em Python que avalia a
+força de senhas com base em critérios de segurança, retornando uma
+classificação (Fraca, Média ou Forte) e recomendações de melhoria.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tecnologias Utilizadas
 
-Note: This will impact Vite dev & build performances.
+- Python 3
+- Git / GitHub (versionamento e colaboração)
+- Docker (containerização)
+- GitHub Actions / Jenkins (Integração Contínua)
 
-## Expanding the Oxlint configuration
+## Estrutura de Pastas
+infraDevOps/
+├── src/
+│ └── verificador_senha.py
+├── README.md
+└── .gitignore
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Instruções de Instalação
+1. Clone o repositório:
+git clone https://github.com/ThiFAC/infraDevOps.git
+
+2. Acesse a pasta do projeto:
+cd infraDevOps
+
+3. Certifique-se de ter o Python 3 instalado. Verifique com:
+python --version
+
+## Instruções de Execução
+Execute o script diretamente com Python:
+python src/verificador_senha.py
+
+O terminal solicitará que você digite uma senha, e retornará sua classificação
+de força (Fraca, Média ou Forte) junto com recomendações de melhoria, caso
+aplicável.
+
+## LicençaEste projeto é distribuído sob a licença MIT.
