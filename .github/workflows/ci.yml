@@ -3,9 +3,9 @@ name: CI - Integração Contínua
 # Dispara o pipeline a cada push e a cada Pull Request
 on:
   push:
-    branches: [ master, desenvolvimento ]
+    branches: [ master, desenvolvimento, feature ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, desenvolvimento, feature]
 
 jobs:
   # Job 1: Build e testes da aplicação
@@ -27,15 +27,15 @@ jobs:
 
       # 3. Instala as dependências
       - name: Instalar dependências
-        run: npm install
+        run: npm ci
 
       # 4. Gera o build de produção
       - name: Build da aplicação
         run: npm run build
 
-      # 5. (Opcional) Executa os testes
+      # 5.  Executa os testes
       - name: Executar testes
-        run: npm test -- --passWithNoTests
+        run: npm test
 
   # Job 2: Build da imagem Docker
   docker:
@@ -57,4 +57,4 @@ jobs:
         with:
           context: .
           push: false
-          tags: meu-projeto-devops:latest
+          tags: infra-dev-ops:latest
