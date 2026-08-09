@@ -3,9 +3,9 @@ name: CI - Integração Contínua
 # Dispara o pipeline a cada push e a cada Pull Request
 on:
   push:
-    branches: [ main, desenvolvimento ]
+    branches: [ master, desenvolvimento ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   # Job 1: Build e testes da aplicação
