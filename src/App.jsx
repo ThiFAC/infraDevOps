@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>CodeFactory Solutions</h1>
+        <h1> Solutions</h1>
         <p>Transformação DevOps do nosso time</p>
       </header>
 
