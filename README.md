@@ -1,4 +1,4 @@
-# InfraDevOps — Verificador de Força de Senha
+# InfraDevOps — Verificador de Força de Senha Projeto desenvolvido por Henrique e Thiago.
 
 ## Descrição do Projeto
 
@@ -47,5 +47,4 @@ O terminal solicitará que você digite uma senha, e retornará sua classificaç
 de força (Fraca, Média ou Forte) junto com recomendações de melhoria, caso
 aplicável.
 
-## Licença
-Este projeto é distribuído sob a licença MIT.
+## LicençaEste projeto é distribuído sob a licença MIT.
