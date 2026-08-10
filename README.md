@@ -1,50 +1,71 @@
-# InfraDevOps — Verificador de Força de Senha Projeto desenvolvido por Henrique e Thiago.
+# InfraDevOops
 
-## Descrição do Projeto
-
-Este projeto foi desenvolvido como atividade prática da disciplina de DevOps e
-Integração Contínua do Centro Universitário Internacional Uninter. A proposta
-simula a atuação de uma equipe de consultoria contratada pela empresa fictícia
-CodeFactory Solutions, com o objetivo de demonstrar, na prática, a adoção da
-Cultura DevOps em um fluxo de desenvolvimento de software.
+Aplicação desenvolvida em **React + Vite**, containerizada com **Docker** e automatizada com **GitHub Actions**. Este projeto demonstra a adoção da Cultura DevOps na empresa ficticia **CodeFactory Solutions**, aplicando práticas de versionamento, colaboração, containerização e integração contínua.
 
 ## Objetivo
 
-Aplicar conceitos de versionamento com Git/GitHub, containerização com Docker
-e Integração Contínua sobre um projeto real: um script em Python que avalia a
-força de senhas com base em critérios de segurança, retornando uma
-classificação (Fraca, Média ou Forte) e recomendações de melhoria.
+Demonstrar na prática como a Cultura DevOps transforma o fluxo de desenvolvimento  tornando-o mais **organizado, colaborativo, automatizado e confiável** — resolvendo os problemas de atrasos, erros pós-atualização e dificuldade de integração enfrentados pela equipe.
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
-- Python 3
-- Git / GitHub (versionamento e colaboração)
-- Docker (containerização)
-- GitHub Actions / Jenkins (Integração Contínua)
+| Tecnologia | Função |
+|---|---|
+| React | Biblioteca para construção da interface |
+| Vite | Bundler e servidor de desenvolvimento |
+| JavaScript (JSX) | Linguagem da aplicação |
+| Docker | Containerização da aplicação |
+| GitHub Actions | Pipeline de Integração Contínua |
+| Vitest | Testes automatizados dos componentes |
+| Git / GitHub | Versionamento e colaboração |
 
-## Estrutura de Pastas
+## Estrutura de pastas
+```
 infraDevOps/
+├── .github/
+│   └── workflows/
+│       └── ci.yml          # Pipeline de CI
+├── public/                 # Arquivos estáticos públicos
 ├── src/
-│ └── verificador_senha.py
-├── README.md
-└── .gitignore
+│   ├── App.jsx             # Componente principal
+│   ├── App.css             # Estilos do componente principal
+│   ├── main.jsx            # Ponto de entrada do React
+│   ├── App.test.jsx        # Testes do componente App
+│   ├── index.css           # CSS global da aplicação
+│   └── setupTests.js       # Configuração dos testes
+├── Dockerfile              # Definição da imagem Docker
+├── LICENSE                 # Licença do Projeto
+├── package.json            # Dependências e scripts
+├── package-lock.json       # Versões exatas das dependências
+├── vite.config.js          # Configuração do Vite
+└── README.md               # Documentação principal
+```
 
-## Instruções de Instalação
-1. Clone o repositório:
-git clone https://github.com/ThiFAC/infraDevOps.git
+## Como instalar
 
-2. Acesse a pasta do projeto:
-cd infraDevOps
+### Pré-requisitos
 
-3. Certifique-se de ter o Python 3 instalado. Verifique com:
-python --version
+- [Node.js](https://nodejs.org/) versão 18 ou superior
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/) 
 
-## Instruções de Execução
-Execute o script diretamente com Python:
-python src/verificador_senha.py
+### Como Rodar o Projeto
+- [Clique aqui](https://github.com/ThiFAC/infraDevOps/wiki/Como-rodar-o-projeto)
 
-O terminal solicitará que você digite uma senha, e retornará sua classificação
-de força (Fraca, Média ou Forte) junto com recomendações de melhoria, caso
-aplicável.
 
-## LicençaEste projeto é distribuído sob a licença MIT.
+
+## Licença
+
+Este projeto está licenciado sob a licença **MIT**. Consulte o arquivo [LICENSE](https://github.com/ThiFAC/infraDevOps?tab=License-1-ov-file) para mais detalhes.
+
+## Versão
+
+**v0.1.0** — Versão inicial do projeto.
+
+---
+
+## Equipe
+
+| Nome | 
+|---|
+**Henrique Alcântara**
+**Thiago Felipe Andrade Cassemiro**

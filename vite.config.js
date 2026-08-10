@@ -8,4 +8,14 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  server: {
+    host: '0.0.0.0', // Permite que o Docker acesse a aplicação de fora
+    port: 3000,      // Fixa a porta interna em 3000
+    strictPort: true // Garante que a porta 3000 seja usada, falhando se não estiver disponível
+  },
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    setupFiles: './src/setupTests.js',
+  }
 })
