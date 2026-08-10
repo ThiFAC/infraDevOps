@@ -64,5 +64,5 @@ Este projeto está licenciado sob a licença **MIT**. Consulte o arquivo [LICENS
 
 | Nome | 
 |---|
-| [Thiago Felipe Andrade Cassemiro] |
-| [Henrique Alcântara] | 
+**Henrique Alcântara**
+**Thiago Felipe Andrade Cassemiro**
