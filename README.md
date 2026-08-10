@@ -48,7 +48,8 @@ infraDevOps/
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/) 
 
-- [Como rodar o projeto](https://github.com/ThiFAC/infraDevOps/wiki/Como-rodar-o-projeto)
+### Como Rodar o Projeto
+- [Clique aqui](https://github.com/ThiFAC/infraDevOps/wiki/Como-rodar-o-projeto)
 
 
 
@@ -58,11 +59,11 @@ Este projeto está licenciado sob a licença **MIT**. Consulte o arquivo [LICENS
 
 ## Versão
 
-**v1.0.0** — Versão inicial do projeto.
+**v0.1.0** — Versão inicial do projeto.
 
 ---
 
-## 👥 Equipe
+## Equipe
 
 | Nome | 
 |---|
