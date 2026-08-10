@@ -1,4 +1,4 @@
-# InfraDevOops
+# InfraDevOps
 
 Aplicação desenvolvida em **React + Vite**, containerizada com **Docker** e automatizada com **GitHub Actions**. Este projeto demonstra a adoção da Cultura DevOps na empresa ficticia **CodeFactory Solutions**, aplicando práticas de versionamento, colaboração, containerização e integração contínua.
 
