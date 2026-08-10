@@ -30,8 +30,10 @@ infraDevOps/
 │   ├── App.css             # Estilos do componente principal
 │   ├── main.jsx            # Ponto de entrada do React
 │   ├── App.test.jsx        # Testes do componente App
+│   ├── index.css           # CSS global da aplicação
 │   └── setupTests.js       # Configuração dos testes
 ├── Dockerfile              # Definição da imagem Docker
+├── LICENSE                 # Licença do Projeto
 ├── package.json            # Dependências e scripts
 ├── package-lock.json       # Versões exatas das dependências
 ├── vite.config.js          # Configuração do Vite
