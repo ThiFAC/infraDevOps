@@ -27,6 +27,14 @@ function App() {
           </ul>
         </section>
 
+        <section>
+            <h2>Nossa Equipe</h2>
+            <p>
+              Projeto desenvolvido por Henrique e Thiago, aplicando na
+              prática os conceitos de Cultura DevOps estudados na disciplina.
+            </p>
+          </section>
+
         <button>Saiba mais</button>
       </main>
 
